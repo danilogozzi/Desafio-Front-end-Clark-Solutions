@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#menu-top ul{
+    display: none;
+    margin:0;
+    padding:0;
+}
+
+#menu-top{
+    background-color: #080a0c;
+}
+#menu-top li a{
+    color: #516872;
+    margin: 0px 2vw;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+#menu-top li{
+    list-style: none;
+}
+#menu-top li a:hover{
+    background-color: #272c33;
+    color: #6a8692;
+    padding: 7.5px;
+}
+#menu-top button{
+    background-color: #080a0c;
+    color: #516872;
+    border: none;
+}
+
+#banner-1{
+    background-image: url("../img/banner-1.png");
+    background-position: contain;
+    background-repeat: none;
+    background-size: cover;
+    height: 560px;
+}
+#banner-1 ul li a{
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#banner-1 ul li a:hover{
+    border:1px solid white;
+    border-radius: 30px;
+}
+
+.barra-vertical{
+    border:1px solid  #216b2d;
+    height: 80px;
+    width:1px;
+    border-width: 1px;
+}
+#secao-1{
+    padding-top: 200px;
+}
+#secao-1 button{
+    background-color: #2c8d2c;
+    font-weight: bold;
+}
+#secao-1 span{
+    font-size: 18pt;
+}
+#card{
+    height: 100%;
+}
+#card img{
+    width: 10vw;
+    float: left;
+    height:100%;
+}
+
+footer{
+    background-color: #111214;
+    clear: both;
+    height: auto;
+}
+#retangulo-14{
+    background-image: url("../img/Retângulo\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 240px;
+}
+#form-1 h2{
+    font-weight: bold;
+    font-size: max(15pt, 2.5vw);
+}
+#form-1 input{
+    background-color: #2e333a;
+    color: white;
+    padding: 15px;
+    width: max(300px,5vw);
+    border: none;
+}
+
+#form-1 button{
+    background-color: #101216;
+    color: white;
+    padding: max(11px, 2.5vh);
+    width: max(250px,5vw);
+    border: 1px solid #2c8d2c;
+}
+#retangulo-12{
+    background-image: url("../img/Retângulo\ 12.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height:auto;
+}
+#retangulo-12 ul{
+    list-style: none;
+    color: white;
+}
+#retangulo-12 a{
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 10pt;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+ }
+
+@media(max-width:576px){
+    #menu-top{
+        display:none;
+    }
+}
